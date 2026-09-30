@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('diabetes_progression_model.joblib')
+model = joblib.load('model.joblib')
 scaler = joblib.load('scaler.joblib')
 
 st.title('Diabetes Progression Tracker')
