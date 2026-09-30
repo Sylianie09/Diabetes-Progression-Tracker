@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('model.joblib')
-scaler = joblib.load('scaler.joblib')
+model = joblib.load('model(1).joblib')
+scaler = joblib.load('scaler(1).joblib')
 
 st.title('Diabetes Progression Tracker')
 st.write('Enter values below to get a prediction.')
